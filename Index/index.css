@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: yellow;
+}
+.nav-botones-lista {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0; 
+}
+.botones-lista-item {
+    display: inline-block;
+}
+.botones-lista-item a {
+    color: rgb(26, 200, 206);
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.botones-lista-item a:hover {
+    color: whitesmoke;
+}
+.botones-lista-item a:active {
+    color: green;
+}
+.botones-lista-item a::after {
+    content: " | ";
+}
